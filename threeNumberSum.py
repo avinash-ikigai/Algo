@@ -17,7 +17,8 @@ def threeNumberSum(array, targetSum):
                 right -= 1
     return triplets
 
-arrays = [12,3,1,2,-6,5,-8,6]
+
+arrays = [12, 3, 1, 2, -6, 5, -8, 6]
 target = 0
-result = threeNumberSum(arrays,target)
-print("Sum of the 3 numbers: "+str(result))
+result = threeNumberSum(arrays, target)
+print("Sum of the 3 numbers: " + str(result))
